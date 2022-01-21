@@ -1,0 +1,9 @@
+<!-- jsCalendar style -->
+<link rel="stylesheet" type="text/css" href="jsCalendar.css">
+<!-- jsCalendar script -->
+<script type="text/javascript" src="jsCalendar.js"></script>
+<!-- target jsCalendar element -->
+<div id="calendar"></div>
+<script type="text/javascript">
+	jsCalendar.new("#calendar", "now", {});
+</script>
